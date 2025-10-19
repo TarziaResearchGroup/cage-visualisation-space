@@ -5,7 +5,7 @@
 
    Model dataset 1 <cg_model_jul2023.rst>
    Starship prediction <starships_mar2025.rst>
-   Blind structure prediction <blind_oct2025.rst>
+   Structure prediction <blind_oct2025.rst>
 
 
 Overview
@@ -40,9 +40,9 @@ Publications and datasets
 
 * `Systematic exploration of accessible cage topologies (July 2023) <cg_model_jul2023.html>`_
 
-* `Starship structure prediction (March 2025) <starships_mar2025.html>`_
+* `Scanning forcefield parameters of starships (March 2025) <starships_mar2025.html>`_
 
-* `Graph enumeration for blind structure prediction of cage structures (October 2025) <blind_oct2025.html>`_
+* `Predicting stable cage structures by enumerating stoichiometry and topology (October 2025) <blind_oct2025.html>`_
 
 Acknowledgements
 ----------------

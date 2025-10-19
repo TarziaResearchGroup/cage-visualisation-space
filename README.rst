@@ -5,8 +5,8 @@
 Overview
 ========
 
-In this repository, I host the toy and coarse-grained models
-I have developed over the years.
+In this repository, I host structural models that I have developed over the
+years.
 
 
 Publications
@@ -17,9 +17,11 @@ Publications
 
 __ https://pubs.rsc.org/en/content/articlelanding/2023/sc/d3sc03991a
 
-.. * STARSHIPS TBA: `Systematic exploration of accessible topologies of cage molecules via minimalistic models`__
+* Starship dataset: `Adjacent backbone interactions control self-sorting of chiral heteroleptic Pd3A2B4 isosceles triangles and Pd4A4C4 pseudo-tetrahedra`__
 
-.. __ https://pubs.rsc.org/en/content/articlelanding/2023/sc/d3sc03991a
+__ https://www.cell.com/chem/fulltext/S2451-9294(25)00371-7?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2451929425003717%3Fshowall%3Dtrue
+
+* Structure prediction dataset: Predicting stable cage structures by enumerating stoichiometry and topology
 
 
 Acknowledgements
