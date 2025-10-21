@@ -2,7 +2,7 @@
 Structure prediction dataset
 ============================
 
-Publication: `Predicting stable cage structures by enumerating stoichiometry and topology <X>`_
+Publication: `Predicting stable cage structures by enumerating stoichiometry and topology <https://chemrxiv.org/engage/chemrxiv/article-details/68f0ef40bc2ac3a0e051be52>`_
 
 Code: `topology_scrambler <https://github.com/andrewtarzia/topology_scrambler>`_
 
