@@ -3,26 +3,24 @@
    :caption: Datasets
    :maxdepth: 1
 
-   Model dataset 1 <cg_model_jul2023.rst>
-   Starship prediction <starships_mar2025.rst>
-   Structure prediction <blind_oct2025.rst>
+
 
 
 Overview
 ========
 
-In this repository, I host the toy and coarse-grained models
-I have developed over the years.
+In this repository, I host the atomistic cage models I have published over the
+years.
 
-| GitHub: https://github.com/andrewtarzia/cgmodels
+| GitHub: https://github.com/TarziaResearchGroup/cage-visualisation-space
 
 Everything shown here is built with a combination of:
 
-* `cgx <https://cgexplore.readthedocs.io>`_
 * `stk <https://stk.readthedocs.io>`_
 * `stko <https://stko-docs.readthedocs.io>`_
-* `SpinDry <https://spindry.readthedocs.io>`_
-* `OpenMM <https://openmm.org/>`_
+* `Gulp <https://spindry.readthedocs.io>`_
+* `OpenMM <https://gulp.curtin.edu.au>`_
+* `xtb <https://xtb-docs.readthedocs.io/en/latest/>`_
 
 For helping with this, I must thank G. Fraux (@Luthaf), M. Ceriotti and the
 Cerrioti group. Here is a link to their paper on
@@ -38,16 +36,10 @@ pushing by following the steps in `chemiscope documentation <https://chemiscope.
 Publications and datasets
 -------------------------
 
-* `Systematic exploration of accessible cage topologies (July 2023) <cg_model_jul2023.html>`_
-
-* `Scanning forcefield parameters of starships (March 2025) <starships_mar2025.html>`_
-
-* `Predicting stable cage structures by enumerating stoichiometry and topology (October 2025) <blind_oct2025.html>`_
+* `TBD (July 2023) <apage.html>`_
 
 Acknowledgements
 ----------------
 
-Funded by the European Union - Next Generation EU, Mission 4 Component 1 CUP E13C22002930006.
-
-This work is now developed as part of the `Tarzia Research Group at the
+This work is developed as part of the `Tarzia Research Group at the
 University of Birmingham <https://tarziaresearchgroup.github.io>`_.

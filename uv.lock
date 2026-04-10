@@ -78,6 +78,37 @@ wheels = [
 ]
 
 [[package]]
+name = "cage-visualisation-space"
+source = { editable = "." }
+dependencies = [
+    { name = "chemiscope" },
+]
+
+[package.optional-dependencies]
+dev = [
+    { name = "furo" },
+    { name = "moldoc" },
+    { name = "pip-tools" },
+    { name = "sphinx" },
+    { name = "sphinx-copybutton" },
+    { name = "sphinx-rtd-theme" },
+    { name = "twine" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "chemiscope", specifier = ">0.7.3" },
+    { name = "furo", marker = "extra == 'dev'" },
+    { name = "moldoc", marker = "extra == 'dev'" },
+    { name = "pip-tools", marker = "extra == 'dev'" },
+    { name = "sphinx", marker = "extra == 'dev'" },
+    { name = "sphinx-copybutton", marker = "extra == 'dev'" },
+    { name = "sphinx-rtd-theme", marker = "extra == 'dev'" },
+    { name = "twine", marker = "extra == 'dev'" },
+]
+provides-extras = ["dev"]
+
+[[package]]
 name = "certifi"
 version = "2025.8.3"
 source = { registry = "https://pypi.org/simple" }
@@ -130,37 +161,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/25/8e/342a504ff018a2825d395d44d63a767dd8ebc927ebda557fecdaca3ac33a/cffi-2.0.0-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:7553fb2090d71822f02c629afe6042c299edf91ba1bf94951165613553984512", size = 224443, upload-time = "2025-09-08T23:23:37.328Z" },
     { url = "https://files.pythonhosted.org/packages/e1/5e/b666bacbbc60fbf415ba9988324a132c9a7a0448a9a8f125074671c0f2c3/cffi-2.0.0-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:6c6c373cfc5c83a975506110d17457138c8c63016b563cc9ed6e056a82f13ce4", size = 223437, upload-time = "2025-09-08T23:23:38.945Z" },
 ]
-
-[[package]]
-name = "cgmodels"
-source = { editable = "." }
-dependencies = [
-    { name = "chemiscope" },
-]
-
-[package.optional-dependencies]
-dev = [
-    { name = "furo" },
-    { name = "moldoc" },
-    { name = "pip-tools" },
-    { name = "sphinx" },
-    { name = "sphinx-copybutton" },
-    { name = "sphinx-rtd-theme" },
-    { name = "twine" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "chemiscope", specifier = ">0.7.3" },
-    { name = "furo", marker = "extra == 'dev'" },
-    { name = "moldoc", marker = "extra == 'dev'" },
-    { name = "pip-tools", marker = "extra == 'dev'" },
-    { name = "sphinx", marker = "extra == 'dev'" },
-    { name = "sphinx-copybutton", marker = "extra == 'dev'" },
-    { name = "sphinx-rtd-theme", marker = "extra == 'dev'" },
-    { name = "twine", marker = "extra == 'dev'" },
-]
-provides-extras = ["dev"]
 
 [[package]]
 name = "charset-normalizer"

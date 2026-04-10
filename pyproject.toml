@@ -3,7 +3,7 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cgmodels"
+name = "cage-visualisation-space"
 maintainers = [
   { name = "Andrew Tarzia", email = "andrew.tarzia@gmail.com" },
 ]
@@ -26,5 +26,5 @@ dev = [
 ]
 
 [project.urls]
-github = "https://github.com/andrewtarzia/cgmodels"
-documentation = "https://cgmodels.readthedocs.io"
+github = "https://github.com/TarziaResearchGroup/cage-visualisation-space"
+documentation = "https://cage-visualisation-space.readthedocs.io"
