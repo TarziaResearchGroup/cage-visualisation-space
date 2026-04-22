@@ -6,8 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "cgmodels"
-copyright = "2024, Andrew Tarzia"
+project = "cage-visualisation-space"
+copyright = "2026, Tarzia Research Group"
 author = "Andrew Tarzia"
 
 # -- General configuration ---------------------------------------------------
